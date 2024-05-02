@@ -23,7 +23,9 @@ nav> ul> li{
     list-style: none;
     color: white;
 }
-
+.setting{
+    margin-top: 470px;
+}
 .provacercare{
     width: 300px;
     height: 50px;
@@ -69,7 +71,6 @@ nav> ul> li{
     .provacercare{
         width: 1200px;
         height: 50px;
-       
     }
     
   }
