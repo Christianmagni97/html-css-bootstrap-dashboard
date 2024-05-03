@@ -24,7 +24,7 @@ nav> ul> li{
     color: white;
 }
 .setting{
-    margin-top: 470px;
+    margin-top: 525px;
 }
 .provacercare{
     width: 300px;
@@ -47,10 +47,12 @@ nav> ul> li{
 .backgroundsubtitlesbarrablu{
     background-color: #165bba;
     height: 25px;
-    width: 90px;
+    width: 100px;
     border-radius: 20px;
     text-align: center;
     justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 .backgroundsubtitlesbarrablu2{
     background-color: #165bba;
@@ -58,7 +60,38 @@ nav> ul> li{
     width: 20px;
     border-radius: 20px;
     text-align: center;
+    margin-left: 20px;
+    margin-top: 5px;
 }
+.backgroundsubtitlesbarrablu3{
+    background-color: #165bba;
+    height: 25px;
+    width: 70px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.backgroundsubtitlesbarrablu4{
+    background-color: #165bba;
+    height: 25px;
+    width: 160px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.secondpartmain{
+    width: calc(100vw - 15%);
+    margin-left: 15%;
+}
+.indici{
+    width: 30px;
+    height: auto;
+}
+/* inizio media */
 @media screen and (min-width: 1100px) {
     .barrablu{
         height: 16vh;
@@ -72,5 +105,36 @@ nav> ul> li{
         width: 1200px;
         height: 50px;
     }
-    
   }
+  @media screen and (min-width: 395px) {
+    .barra-laterale> nav> ul> li{
+        font-size: 14px;
+
+    }
+    }
+    @media screen and (min-width: 395px) and (max-width: 980px) {
+        .barra-laterale> nav> ul> li> span, .backgroundsubtitlesbarrablu4{
+            visibility: hidden;
+        }
+        .barra-laterale{
+            display: flex;
+            align-items: center;
+
+        }
+        .barra-laterale> nav> ul> li{
+            padding-left: 12px;
+        }
+        }
+        @media screen and (min-width: 980px) {
+            .barra-laterale> nav> ul> li{
+                font-size: 18px;
+                padding-top: 10px;
+            }
+            .backgroundsubtitlesbarrablu2{
+                visibility: hidden;
+            }
+            .backgroundsubtitlesbarrablu{
+                margin-top: 15px;
+            }
+           
+            }
