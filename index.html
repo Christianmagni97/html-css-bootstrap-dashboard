@@ -10,13 +10,6 @@
 </head>
 <body>
     <!--Navbar orizzontale-->
-    <header class="align-items-center">
-        <nav class="navprincipale d-flex justify-content-between align-items-center py-2">
-            <img src="./mobile-logo.png" alt="" class="img-logo-mobile">
-            <input type="search" placeholder="Prova a cercare: Lezioni di Laravel" class="py-3 provacercare ">
-            <i class="fa-solid fa-bell fs-2"></i>
-        </nav>
-    </header>
     <!--Navbar verticale-->
     <div class="text-center barra-laterale">
         <nav>
@@ -28,11 +21,20 @@
             </ul>
         </nav>
     </div>
+    <header class="align-items-center">
+      <nav class="navprincipale d-flex justify-content-between align-items-center py-2">
+          <img src="./mobile-logo.png" alt="" class="img-logo-mobile">
+          <input type="search" placeholder="Prova a cercare: Lezioni di Laravel" class="py-3 provacercare ">
+          <i class="fa-solid fa-bell fs-2"></i>
+      </nav>
+  </header>
     <!--Inizio main-->
     <main>
         <div class="barrablu d-flex">
             <section class="ms-4 py-3">
-             <p>Nuovo Studente</p>
+              <div class="d-flex">
+                <p>Nuovo Studente</p>
+              </div>
              <div class="d-flex">
                  <h1>Boolean</h1>
                  <div class="backgroundsubtitlesbarrablu">
@@ -63,8 +65,9 @@
              </div>
             </section>
         </div>
+        <!--Inizio tabella-->
         <div class="secondpartmain">
-            <table class="table">
+            <table class="table table-hover">
                 <thead>
                   <tr>
                     <th scope="col"><h2>Prossime classi</h2></th>
@@ -197,11 +200,11 @@
                     </div></td>
                     <td class="d-flex">
                       <div class="quadrato">
-                      <i class="fa-solid fa-pen"></i>
-                    </div>
-                    <div class="quadrato">
-                      <i class="fa-solid fa-trash"></i>
-                    </div>
+                        <i class="fa-solid fa-pen"></i>
+                      </div>
+                      <div class="quadrato">
+                        <i class="fa-solid fa-trash"></i>
+                      </div>
                     </td>
                   </tr>
                 </tbody>
