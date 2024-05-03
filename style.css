@@ -91,6 +91,25 @@ nav> ul> li{
     width: 30px;
     height: auto;
 }
+.backgroundgreen{
+    background-color: #198754;
+    height: 25px;
+    width: 50px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.backgroundyellow{
+    background-color: #ffc107;
+    height: 25px;
+    width: 70px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+
+}
 /* inizio media */
 @media screen and (min-width: 1100px) {
     .barrablu{
@@ -136,5 +155,4 @@ nav> ul> li{
             .backgroundsubtitlesbarrablu{
                 margin-top: 15px;
             }
-           
             }
